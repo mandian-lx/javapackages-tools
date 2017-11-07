@@ -148,11 +148,7 @@ packaging.
 
 %prep
 %setup -q -n javapackages-%{version}
-
-%patch100 -p1
-%patch101 -p1
-%patch201 -p1
-%patch300 -p1
+%apply_patches
 
 sed -i 's#/bin/objectweb-asm3-processor#/usr/bin/objectweb-asm3-processor#' bin/shade-jar
 %build
