@@ -19,6 +19,9 @@ Patch201:	javapackages-tools-4.3.2-remove_scl.patch
 # Add gradle-local script (by upstreamer, adapted)
 # https://pagure.io/javapackages/raw/769a20eda74b9488bd7f3caac3970984831f8d2b
 Patch300:	javapackages-tools-4.3.2-add_gradle-local_script.patch
+# fix version in provides and requires (adaped by upstreamer)
+# https://pagure.io/javapackages-tools/raw/7cf7997344551b9f578d4df9901b96e7ab026128/f/0002-Replace-all-dashes-with-dots-in-versioned-provides-a.patch
+Patch400:	javapackages-tools-4.3.2-replace-all-dashes-with-dots-in-versioned-provides-and-requires.patch
 BuildArch:      noarch
 
 BuildRequires:  python-devel
