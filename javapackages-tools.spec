@@ -95,7 +95,7 @@ This package provides macros and scripts to support packaging Maven artifacts.
 Summary:        Local mode for Gradle
 Requires:       %{name} = %{version}-%{release}
 Requires:       javapackages-local = %{version}-%{release}
-Requires:       gradle >= 2.2.1-2
+Requires:       gradle >= 2.2.1
 Requires:       xmvn-connector-gradle >= 2
 
 %description -n gradle-local
